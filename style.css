@@ -1,0 +1,49 @@
+body {
+  background-color: #78edff;
+}
+
+form {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 2em;
+}
+
+form .form-group {
+  padding: 20px;
+  margin: 0 auto;
+}
+
+form .form-group label {
+  display: block;
+  font-size: 2em;
+}
+
+form .form-group input {
+  width: 100%;
+  font-size: 2em;
+  padding: 10px;
+}
+
+.button-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 35px;
+  justify-items: center;
+}
+
+.button-group button {
+  width: 80%;
+  font-size: 1.5em;
+  padding: 15px;
+}
+
+#message-good {
+  color: #333;
+  font-size: 3em;
+  padding: 15px;
+  text-align: center;
+}
+
+.highlight {
+  color: #f37eb5;
+}
